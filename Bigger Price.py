@@ -2,8 +2,6 @@ def bigger_price(limit, data):
     data.sort(key=lambda i : i["price"], reverse=True)
     return data[:limit]
 
-
-
 if __name__ == '__main__':
     from pprint import pprint
     print('Example:')
